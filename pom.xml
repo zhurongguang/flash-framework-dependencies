@@ -12,7 +12,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.2.RELEASE</version>
+        <version>2.2.5.RELEASE</version>
     </parent>
 
     <repositories>
@@ -28,60 +28,59 @@
         <java.version>1.8</java.version>
         <guava.version>27.1-jre</guava.version>
         <junit.version>4.12</junit.version>
-        <fastjson.version>1.2.62</fastjson.version>
+        <fastjson.version>1.2.68</fastjson.version>
         <jetbrains-annotations.version>16.0.3</jetbrains-annotations.version>
         <mybatis-plus.version>3.3.1</mybatis-plus.version>
         <quartz.version>2.3.2</quartz.version>
-        <spring-boot.version>2.2.2.RELEASE</spring-boot.version>
+        <spring-boot.version>2.2.5.RELEASE</spring-boot.version>
         <spring-cloud.version>Hoxton.SR1</spring-cloud.version>
         <jedis.version>2.9.0</jedis.version>
-        <hutool.version>4.5.18</hutool.version>
-        <commons-lang3.version>3.9</commons-lang3.version>
-        <commons-beanutils.version>1.9.3</commons-beanutils.version>
-        <commons-codec.version>1.11</commons-codec.version>
+        <hutool.version>5.3.0</hutool.version>
+        <commons-lang3.version>3.10</commons-lang3.version>
+        <commons-beanutils.version>1.9.4</commons-beanutils.version>
+        <commons-codec.version>1.14</commons-codec.version>
         <commons-collections4.version>4.4</commons-collections4.version>
         <commons-fileupload.version>1.4</commons-fileupload.version>
         <commons-net.version>3.6</commons-net.version>
+        <commons-pool2.version>2.8.0</commons-pool2.version>
         <zxing.version>3.4.0</zxing.version>
-        <easyexcel.version>2.1.6</easyexcel.version>
+        <easyexcel.version>2.2.2</easyexcel.version>
         <guava-retry.version>2.0.0</guava-retry.version>
-        <mvel2.version>2.4.4.Final</mvel2.version>
-        <lettuce.version>5.2.1.RELEASE</lettuce.version>
-        <velocity.version>2.1</velocity.version>
-        <jodd.version>5.0.13</jodd.version>
-        <javassist.version>3.26.0-GA</javassist.version>
-        <dubbo.version>2.7.5</dubbo.version>
-        <dubbo.spring.boot.version>2.7.5</dubbo.spring.boot.version>
-        <zookeeper.version>3.4.14</zookeeper.version>
-        <curator.version>4.2.0</curator.version>
+        <mvel2.version>2.4.7.Final</mvel2.version>
+        <lettuce.version>5.2.2.RELEASE</lettuce.version>
+        <velocity.version>2.2</velocity.version>
+        <jodd.version>5.1.4</jodd.version>
+        <javassist.version>3.27.0-GA</javassist.version>
+        <dubbo.version>2.7.6</dubbo.version>
+        <dubbo.spring.boot.version>2.7.6</dubbo.spring.boot.version>
+        <zookeeper.version>3.5.5</zookeeper.version>
+        <curator.version>4.3.0</curator.version>
         <kryo.version>4.0.2</kryo.version>
         <kryo-serializers.version>0.45</kryo-serializers.version>
-        <spring.rocketmq.version>2.0.4</spring.rocketmq.version>
-        <rocketemq.version>4.6.0</rocketemq.version>
-        <kafka.version>2.1.0</kafka.version>
-        <netty4_version>4.1.43.Final</netty4_version>
+        <spring.rocketmq.version>2.1.0</spring.rocketmq.version>
+        <rocketemq.version>4.7.0</rocketemq.version>
+        <kafka.version>2.4.1</kafka.version>
+        <netty4_version>4.1.45.Final</netty4_version>
         <elasticJob.version>2.1.5</elasticJob.version>
-        <xxlJob.version>2.1.2</xxlJob.version>
-        <asm.version>7.2</asm.version>
-        <guice.version>4.1.0</guice.version>
-        <druid.version>1.1.21</druid.version>
-        <mybatis.spring.version>2.0.3</mybatis.spring.version>
-        <mybatis-spring-boot.version>2.1.1</mybatis-spring-boot.version>
-        <mybatis.version>3.5.3</mybatis.version>
-        <mapstruct.version>1.3.0.Final</mapstruct.version>
-        <jwt.version>3.8.0</jwt.version>
+        <asm.version>8.0.1</asm.version>
+        <druid.version>1.1.22</druid.version>
+        <mybatis.spring.version>2.0.4</mybatis.spring.version>
+        <mybatis-spring-boot.version>2.1.2</mybatis-spring-boot.version>
+        <mybatis.version>3.5.4</mybatis.version>
+        <mapstruct.version>1.3.1.Final</mapstruct.version>
+        <jwt.version>3.10.2</jwt.version>
         <swagger.version>2.9.2</swagger.version>
         <otter.version>1.1.4</otter.version>
-        <nacos.version>1.1.4</nacos.version>
-        <sentinel.version>1.7.1</sentinel.version>
-        <seata.version>1.0.0</seata.version>
+        <nacos.version>1.2.1</nacos.version>
+        <sentinel.version>1.7.2</sentinel.version>
+        <seata.version>1.1.0</seata.version>
         <mail.version>1.4.7</mail.version>
-        <aliyun-oss.version>3.4.2</aliyun-oss.version>
-        <qiniu.version>7.2.22</qiniu.version>
+        <aliyun-oss.version>3.8.1</aliyun-oss.version>
+        <qiniu.version>7.2.28</qiniu.version>
         <jpush.version>3.4.3</jpush.version>
-        <redisson.version>3.11.6</redisson.version>
-        <jetcache.version>2.6.0.M3</jetcache.version>
-        <hibernate-validator.version>6.1.0.Final</hibernate-validator.version>
+        <redisson.version>3.12.3</redisson.version>
+        <jetcache.version>2.6.0</jetcache.version>
+        <hibernate-validator.version>6.1.3.Final</hibernate-validator.version>
         <flash-framework.version>1.0.0.RELEASE</flash-framework.version>
     </properties>
 
@@ -114,11 +113,6 @@
                 <groupId>org.mvel</groupId>
                 <artifactId>mvel2</artifactId>
                 <version>${mvel2.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.google.inject</groupId>
-                <artifactId>guice</artifactId>
-                <version>${guice.version}</version>
             </dependency>
             <dependency>
                 <groupId>org.mapstruct</groupId>
@@ -192,7 +186,6 @@
                 <groupId>org.quartz-scheduler</groupId>
                 <artifactId>quartz</artifactId>
                 <version>${quartz.version}</version>
-                <scope>provided</scope>
                 <exclusions>
                     <exclusion>
                         <groupId>com.mchange</groupId>
@@ -201,6 +194,10 @@
                     <exclusion>
                         <groupId>com.zaxxer</groupId>
                         <artifactId>HikariCP-java6</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <artifactId>*</artifactId>
+                        <groupId>com.zaxxer</groupId>
                     </exclusion>
                 </exclusions>
             </dependency>
@@ -274,6 +271,11 @@
                 <groupId>commons-net</groupId>
                 <artifactId>commons-net</artifactId>
                 <version>${commons-net.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.commons</groupId>
+                <artifactId>commons-pool2</artifactId>
+                <version>${commons-pool2.version}</version>
             </dependency>
 
             <!-- hutool 工具类 -->
@@ -405,12 +407,7 @@
             <!-- Sentinel -->
             <dependency>
                 <groupId>com.alibaba.csp</groupId>
-                <artifactId>sentinel-apache-dubbo-adapter</artifactId>
-                <version>${sentinel.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.alibaba.csp</groupId>
-                <artifactId>sentinel-annotation-aspectj</artifactId>
+                <artifactId>sentinel-core</artifactId>
                 <version>${sentinel.version}</version>
             </dependency>
             <dependency>
@@ -510,13 +507,6 @@
                 <groupId>com.dangdang</groupId>
                 <artifactId>elastic-job-lite-spring</artifactId>
                 <version>${elasticJob.version}</version>
-            </dependency>
-
-            <!-- XXL-Job -->
-            <dependency>
-                <groupId>com.xuxueli</groupId>
-                <artifactId>xxl-job-core</artifactId>
-                <version>${xxlJob.version}</version>
             </dependency>
 
             <!-- Asm -->
