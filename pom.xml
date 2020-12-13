@@ -12,7 +12,7 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.2.5.RELEASE</version>
+        <version>2.3.1.RELEASE</version>
     </parent>
 
     <repositories>
@@ -28,14 +28,14 @@
         <java.version>1.8</java.version>
         <guava.version>27.1-jre</guava.version>
         <junit.version>4.12</junit.version>
-        <fastjson.version>1.2.68</fastjson.version>
+        <fastjson.version>1.2.73</fastjson.version>
         <jetbrains-annotations.version>16.0.3</jetbrains-annotations.version>
-        <mybatis-plus.version>3.3.1</mybatis-plus.version>
+        <mybatis-plus.version>3.4.0</mybatis-plus.version>
         <quartz.version>2.3.2</quartz.version>
-        <spring-boot.version>2.2.5.RELEASE</spring-boot.version>
+        <spring-boot.version>2.3.1.RELEASE</spring-boot.version>
         <spring-cloud.version>Hoxton.SR1</spring-cloud.version>
         <jedis.version>2.9.0</jedis.version>
-        <hutool.version>5.3.0</hutool.version>
+        <hutool.version>5.3.10</hutool.version>
         <commons-lang3.version>3.10</commons-lang3.version>
         <commons-beanutils.version>1.9.4</commons-beanutils.version>
         <commons-codec.version>1.14</commons-codec.version>
@@ -44,42 +44,44 @@
         <commons-net.version>3.6</commons-net.version>
         <commons-pool2.version>2.8.0</commons-pool2.version>
         <zxing.version>3.4.0</zxing.version>
-        <easyexcel.version>2.2.2</easyexcel.version>
+        <easyexcel.version>2.2.6</easyexcel.version>
         <guava-retry.version>2.0.0</guava-retry.version>
-        <mvel2.version>2.4.7.Final</mvel2.version>
+        <mvel2.version>2.4.8.Final</mvel2.version>
         <lettuce.version>5.2.2.RELEASE</lettuce.version>
         <velocity.version>2.2</velocity.version>
         <jodd.version>5.1.4</jodd.version>
         <javassist.version>3.27.0-GA</javassist.version>
-        <dubbo.version>2.7.6</dubbo.version>
-        <dubbo.spring.boot.version>2.7.6</dubbo.spring.boot.version>
-        <zookeeper.version>3.5.5</zookeeper.version>
+        <dubbo.version>2.7.8</dubbo.version>
+        <dubbo.spring.boot.version>2.7.8</dubbo.spring.boot.version>
+        <zookeeper.version>3.5.7</zookeeper.version>
         <curator.version>4.3.0</curator.version>
         <kryo.version>4.0.2</kryo.version>
         <kryo-serializers.version>0.45</kryo-serializers.version>
-        <spring.rocketmq.version>2.1.0</spring.rocketmq.version>
-        <rocketemq.version>4.7.0</rocketemq.version>
+        <protostuff.version>1.7.2</protostuff.version>
+        <spring.rocketmq.version>2.1.1</spring.rocketmq.version>
+        <rocketemq.version>4.7.1</rocketemq.version>
         <kafka.version>2.4.1</kafka.version>
         <netty4_version>4.1.45.Final</netty4_version>
         <elasticJob.version>2.1.5</elasticJob.version>
         <asm.version>8.0.1</asm.version>
-        <druid.version>1.1.22</druid.version>
-        <mybatis.spring.version>2.0.4</mybatis.spring.version>
-        <mybatis-spring-boot.version>2.1.2</mybatis-spring-boot.version>
-        <mybatis.version>3.5.4</mybatis.version>
+        <druid.version>1.1.23</druid.version>
+        <mybatis.spring.version>2.0.5</mybatis.spring.version>
+        <mybatis-spring-boot.version>2.1.3</mybatis-spring-boot.version>
+        <mybatis.version>3.5.5</mybatis.version>
         <mapstruct.version>1.3.1.Final</mapstruct.version>
-        <jwt.version>3.10.2</jwt.version>
+        <jwt.version>3.10.3</jwt.version>
         <swagger.version>2.9.2</swagger.version>
         <otter.version>1.1.4</otter.version>
-        <nacos.version>1.2.1</nacos.version>
-        <sentinel.version>1.7.2</sentinel.version>
-        <seata.version>1.1.0</seata.version>
+        <nacos.version>1.3.2</nacos.version>
+        <sentinel.version>1.8.0</sentinel.version>
+        <seata.version>1.3.0</seata.version>
         <mail.version>1.4.7</mail.version>
-        <aliyun-oss.version>3.8.1</aliyun-oss.version>
+        <aliyun-oss.version>3.10.0</aliyun-oss.version>
         <qiniu.version>7.2.28</qiniu.version>
         <jpush.version>3.4.3</jpush.version>
         <redisson.version>3.12.3</redisson.version>
         <jetcache.version>2.6.0</jetcache.version>
+        <okhttp3.version>4.9.0</okhttp3.version>
         <hibernate-validator.version>6.1.3.Final</hibernate-validator.version>
         <flash-framework.version>1.0.0.RELEASE</flash-framework.version>
     </properties>
@@ -295,16 +297,6 @@
                 <version>${hutool.version}</version>
             </dependency>
             <dependency>
-                <groupId>cn.hutool</groupId>
-                <artifactId>hutool-system</artifactId>
-                <version>${hutool.version}</version>
-            </dependency>
-            <dependency>
-                <groupId>cn.hutool</groupId>
-                <artifactId>hutool-http</artifactId>
-                <version>${hutool.version}</version>
-            </dependency>
-            <dependency>
                 <groupId>com.google.zxing</groupId>
                 <artifactId>core</artifactId>
                 <version>${zxing.version}</version>
@@ -397,11 +389,62 @@
                 <groupId>org.apache.dubbo</groupId>
                 <artifactId>dubbo-registry-nacos</artifactId>
                 <version>${dubbo.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>log4j</groupId>
+                        <artifactId>log4j</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.apache.dubbo</groupId>
+                        <artifactId>dubbo-registry-api</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.apache.dubbo</groupId>
+                        <artifactId>dubbo-common</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
             <dependency>
                 <groupId>org.apache.dubbo</groupId>
                 <artifactId>dubbo-metadata-report-redis</artifactId>
                 <version>${dubbo.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-configcenter-nacos</artifactId>
+                <version>${dubbo.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.apache.dubbo</groupId>
+                        <artifactId>dubbo-common</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-metadata-report-nacos</artifactId>
+                <version>${dubbo.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.apache.dubbo</groupId>
+                        <artifactId>dubbo-metadata-api</artifactId>
+                    </exclusion>
+                </exclusions>
+            </dependency>
+            <dependency>
+                <groupId>org.apache.dubbo</groupId>
+                <artifactId>dubbo-metadata-report-zookeeper</artifactId>
+                <version>${dubbo.version}</version>
+                <exclusions>
+                    <exclusion>
+                        <groupId>org.apache.dubbo</groupId>
+                        <artifactId>dubbo-metadata-api</artifactId>
+                    </exclusion>
+                    <exclusion>
+                        <groupId>org.apache.dubbo</groupId>
+                        <artifactId>dubbo-remoting-zookeeper</artifactId>
+                    </exclusion>
+                </exclusions>
             </dependency>
 
             <!-- Sentinel -->
@@ -483,6 +526,16 @@
                 <groupId>de.javakaffee</groupId>
                 <artifactId>kryo-serializers</artifactId>
                 <version>${kryo-serializers.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.protostuff</groupId>
+                <artifactId>protostuff-core</artifactId>
+                <version>${protostuff.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.protostuff</groupId>
+                <artifactId>protostuff-runtime</artifactId>
+                <version>${protostuff.version}</version>
             </dependency>
 
             <!-- MQ -->
@@ -610,6 +663,12 @@
                 <groupId>com.alicp.jetcache</groupId>
                 <artifactId>jetcache-redis-springdata</artifactId>
                 <version>${jetcache.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.squareup.okhttp3</groupId>
+                <artifactId>okhttp</artifactId>
+                <version>${okhttp3.version}</version>
             </dependency>
 
 
