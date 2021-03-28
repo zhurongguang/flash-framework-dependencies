@@ -47,21 +47,21 @@
         <easyexcel.version>2.2.6</easyexcel.version>
         <guava-retry.version>2.0.0</guava-retry.version>
         <mvel2.version>2.4.8.Final</mvel2.version>
-        <lettuce.version>5.2.2.RELEASE</lettuce.version>
+        <lettuce.version>5.3.3.RELEASE</lettuce.version>
         <velocity.version>2.2</velocity.version>
         <jodd.version>5.1.4</jodd.version>
         <javassist.version>3.27.0-GA</javassist.version>
-        <dubbo.version>2.7.8</dubbo.version>
-        <dubbo.spring.boot.version>2.7.8</dubbo.spring.boot.version>
+        <dubbo.version>2.7.9</dubbo.version>
+        <dubbo.spring.boot.version>2.7.9</dubbo.spring.boot.version>
         <zookeeper.version>3.5.7</zookeeper.version>
         <curator.version>4.3.0</curator.version>
         <kryo.version>4.0.2</kryo.version>
         <kryo-serializers.version>0.45</kryo-serializers.version>
         <protostuff.version>1.7.2</protostuff.version>
-        <spring.rocketmq.version>2.1.1</spring.rocketmq.version>
-        <rocketemq.version>4.7.1</rocketemq.version>
+        <spring.rocketmq.version>2.2.0</spring.rocketmq.version>
+        <rocketmq.version>4.8.0</rocketmq.version>
         <kafka.version>2.4.1</kafka.version>
-        <netty4_version>4.1.45.Final</netty4_version>
+        <netty4_version>4.1.51.Final</netty4_version>
         <elasticJob.version>2.1.5</elasticJob.version>
         <asm.version>8.0.1</asm.version>
         <druid.version>1.1.23</druid.version>
@@ -73,13 +73,13 @@
         <swagger.version>2.9.2</swagger.version>
         <otter.version>1.1.4</otter.version>
         <nacos.version>1.3.2</nacos.version>
-        <sentinel.version>1.8.0</sentinel.version>
-        <seata.version>1.3.0</seata.version>
+        <sentinel.version>1.8.1</sentinel.version>
+        <seata.version>1.4.1</seata.version>
         <mail.version>1.4.7</mail.version>
         <aliyun-oss.version>3.10.0</aliyun-oss.version>
         <qiniu.version>7.2.28</qiniu.version>
         <jpush.version>3.4.3</jpush.version>
-        <redisson.version>3.12.3</redisson.version>
+        <redisson.version>3.13.4</redisson.version>
         <jetcache.version>2.6.0</jetcache.version>
         <okhttp3.version>4.9.0</okhttp3.version>
         <hibernate-validator.version>6.1.3.Final</hibernate-validator.version>
@@ -547,7 +547,7 @@
             <dependency>
                 <groupId>org.apache.rocketmq</groupId>
                 <artifactId>rocketmq-client</artifactId>
-                <version>${rocketemq.version}</version>
+                <version>${rocketmq.version}</version>
             </dependency>
 
             <!-- Elastic-Job -->
