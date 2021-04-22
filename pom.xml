@@ -67,7 +67,7 @@
         <druid.version>1.1.23</druid.version>
         <mybatis.spring.version>2.0.5</mybatis.spring.version>
         <mybatis-spring-boot.version>2.1.3</mybatis-spring-boot.version>
-        <mybatis.version>3.5.5</mybatis.version>
+        <mybatis.version>3.5.6</mybatis.version>
         <mapstruct.version>1.3.1.Final</mapstruct.version>
         <jwt.version>3.10.3</jwt.version>
         <swagger.version>2.9.2</swagger.version>
