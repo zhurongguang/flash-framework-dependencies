@@ -82,7 +82,7 @@
         <redisson.version>3.13.4</redisson.version>
         <jetcache.version>2.6.0</jetcache.version>
         <okhttp3.version>4.9.0</okhttp3.version>
-        <hibernate-validator.version>6.1.3.Final</hibernate-validator.version>
+        <hibernate-validator.version>6.1.5.Final</hibernate-validator.version>
         <flash-framework.version>1.0.0.RELEASE</flash-framework.version>
     </properties>
 
