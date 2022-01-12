@@ -51,7 +51,7 @@
         <velocity.version>2.2</velocity.version>
         <jodd.version>5.1.4</jodd.version>
         <javassist.version>3.27.0-GA</javassist.version>
-        <dubbo.version>2.7.12</dubbo.version>
+        <dubbo.version>2.7.15</dubbo.version>
         <dubbo.spring.boot.version>2.7.12</dubbo.spring.boot.version>
         <zookeeper.version>3.5.7</zookeeper.version>
         <curator.version>4.3.0</curator.version>
